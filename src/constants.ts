@@ -36,7 +36,38 @@ export const SECTIONS: Section[] = [
         },
         level: "level_beginner",
         utility: 5,
-        extraLabel: { es: "INDISPENSABLE", en: "MUST HAVE" }
+        extraLabel: { es: "PROTOTIPADO RÁPIDO", en: "FAST PROTOTYPING" }
+      },
+      {
+        id: 27,
+        title: "NotebookLM",
+        url: "https://notebooklm.google.com",
+        whatIsIt: {
+          es: "Herramienta de Google para estructurar documentos, analizar datos complejos y generar podcasts automáticos.",
+          en: "Google tool for structuring documents, analyzing complex data, and generating automatic podcasts."
+        },
+        useCase: {
+          es: "Sube tus archivos y genera un resumen ejecutivo o una guía de estudio en segundos.",
+          en: "Upload your files and generate an executive summary or study guide in seconds."
+        },
+        level: "level_beginner",
+        utility: 5,
+        extraLabel: { es: "PRODUCTIVIDAD IA", en: "AI PRODUCTIVITY" }
+      },
+      {
+        id: 28,
+        title: "Looker Studio",
+        url: "https://datastudio.google.com/navigation/reporting",
+        whatIsIt: {
+          es: "La plataforma de Google para convertir datos en informes y dashboards totalmente personalizables.",
+          en: "Google's platform for turning data into fully customizable reports and dashboards."
+        },
+        useCase: {
+          es: "Conecta tus hojas de cálculo y crea un panel visual de KPIs corporativos.",
+          en: "Connect your spreadsheets and create a visual dashboard of corporate KPIs."
+        },
+        level: "level_intermediate",
+        utility: 4.5
       },
       {
         id: 1,
@@ -204,7 +235,83 @@ export const SECTIONS: Section[] = [
           en: "See global trends and innovative formats."
         },
         level: "level_beginner",
-        utility: 5
+        utility: 5,
+        extraLabel: { es: "ARTE CON DATOS", en: "DATA ART" }
+      },
+      {
+        id: 29,
+        title: "Worldometers",
+        url: "https://www.worldometers.info/gas/",
+        whatIsIt: {
+          es: "Contadores en tiempo real sobre estadísticas mundiales vitales.",
+          en: "Real-time counters on vital world statistics."
+        },
+        useCase: {
+          es: "Visualiza el consumo global y demografía en tiempo real para Dashboards de impacto.",
+          en: "Visualize global consumption and demographics in real-time for impact Dashboards."
+        },
+        level: "level_beginner",
+        utility: 4
+      },
+      {
+        id: 30,
+        title: "Casos de Éxito Summan",
+        url: "https://www.summan.com/casos-de-exito/",
+        whatIsIt: {
+          es: "Repositorio de aplicaciones reales y casos de éxito en consultoría tecnológica.",
+          en: "Repository of real applications and success cases in tech consulting."
+        },
+        useCase: {
+          es: "Estudia cómo empresas resuelven problemas reales con herramientas tecnológicas.",
+          en: "Study how companies solve real problems with tech tools."
+        },
+        level: "level_intermediate",
+        utility: 4
+      }
+    ]
+  },
+  {
+    id: "theory",
+    title: { es: "Teoría y Metodología", en: "Theory & Methodology" },
+    icon: "BookOpen",
+    resources: [
+      {
+        id: 25,
+        title: "Storytelling with Data",
+        url: "https://www.storytellingwithdata.com",
+        whatIsIt: {
+          es: "Blog y recursos fundamentales sobre cómo contar historias efectivas con datos.",
+          en: "Fundamental blog and resources on how to tell effective stories with data."
+        },
+        useCase: {
+          es: "Aprende a eliminar el desorden visual en tus presentaciones de datos.",
+          en: "Learn to eliminate visual clutter in your data presentations."
+        },
+        level: "level_beginner",
+        utility: 5,
+        extraLabel: { es: "LECTURA OBLIGATORIA", en: "MANDATORY READING" }
+      }
+    ]
+  },
+  {
+    id: "community",
+    title: { es: "Comunidad y Network", en: "Community & Network" },
+    icon: "Globe",
+    resources: [
+      {
+        id: 26,
+        title: "Data Visualization Society",
+        url: "https://www.datavisualizationsociety.org",
+        whatIsIt: {
+          es: "Comunidad global líder para expertos y entusiastas de la visualización.",
+          en: "Leading global community for visualization experts and enthusiasts."
+        },
+        useCase: {
+          es: "Conecta con profesionales y mantente al día con las mejores prácticas de la industria.",
+          en: "Connect with professionals and stay up to date with industry best practices."
+        },
+        level: "level_intermediate",
+        utility: 4.5
       }
     ]
   }
